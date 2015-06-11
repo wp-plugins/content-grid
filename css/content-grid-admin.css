@@ -1,0 +1,132 @@
+
+#poststuff h2.content-grid-nav-tab-wrapper {
+	padding-bottom: 0;
+}
+.content-grid-nav-tab-wrapper .nav-tab-active, 
+.content-grid-nav-tab-wrapper .nav-tab-active:hover {
+	background: #fff;
+	border-bottom-color: #fff;
+}
+
+.cg-hide {
+	display: none;
+}
+
+.cg-admin-wrap .cg-admin-row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #eee;
+}
+
+.cg-admin-col-inner {
+	background: #cdf;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.cg-pull-right {
+	float: right;
+}
+
+/* grid system */
+
+.cg-admin-wrap * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cg-admin-wrap *:before,
+.cg-admin-wrap *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cg-clearfix:before,
+.cg-clearfix:after,
+.cg-admin-wrap:before,
+.cg-admin-wrap:after,
+.cg-row:before,
+.cg-row:after {
+	content: " ";
+	display: table;
+}
+.cg-clearfix:after,
+.cg-admin-wrap:after,
+.cg-row:after {
+	clear: both;
+}
+
+.cg-admin-wrap {
+	margin-right: auto;
+	margin-left: auto;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+.cg-row {
+	/*margin-left: -15px;
+	margin-right: -15px;*/
+}
+.cg-col-1,
+.cg-col-2,
+.cg-col-3,
+.cg-col-4,
+.cg-col-5,
+.cg-col-6,
+.cg-col-7,
+.cg-col-8,
+.cg-col-9,
+.cg-col-10,
+.cg-col-11,
+.cg-col-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* grid system - responsiveness */
+
+@media (min-width: 768px) {
+	.cg-col-1, .cg-col-2, .cg-col-3, .cg-col-4, .cg-col-5, .cg-col-6, .cg-col-7, .cg-col-8, .cg-col-9, .cg-col-10, .cg-col-11, .cg-col-12 {
+		float: left;
+	}
+	.cg-col-12 {
+		width: 100%;
+	}
+	.cg-col-11 {
+		width: 91.66666667%;
+	}
+	.cg-col-10 {
+		width: 83.33333333%;
+	}
+	.cg-col-9 {
+		width: 75%;
+	}
+	.cg-col-8 {
+		width: 66.66666667%;
+	}
+	.cg-col-7 {
+		width: 58.33333333%;
+	}
+	.cg-col-6 {
+		width: 50%;
+	}
+	.cg-col-5 {
+		width: 41.66666667%;
+	}
+	.cg-col-4 {
+		width: 33.33333333%;
+	}
+	.cg-col-3 {
+		width: 25%;
+	}
+	.cg-col-2 {
+		width: 16.66666667%;
+	}
+	.cg-col-1 {
+		width: 8.33333333%;
+	}
+}
