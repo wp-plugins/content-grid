@@ -1,7 +1,7 @@
 === Content-grid ===
 Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
-Tags: content, grid
+Tags: content, grid, layout, bootstrap, responsive, fluid, flexible, column, columns, row, divider, editor
 Requires at least: 3.3
 Tested up to: 4.4
 Stable tag: 1.0
